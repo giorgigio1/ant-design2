@@ -11,7 +11,7 @@ interface AxiosStore {
 }
 
 // const url = "http://localhost:5000/";
-const url = "https://spiffy-druid-c788e7.netlify.app";
+const url = "https://subtle-kleicha-ecee9c.netlify.app";
 
 const useAxiosStore = create<AxiosStore>((set: SetState<AxiosStore>) => ({
   data: null,
